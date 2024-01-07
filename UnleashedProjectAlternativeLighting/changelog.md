@@ -1,2 +1,2 @@
-## Update 1.0
-- GitHub support.
+## Update 1.1
+- Added loading screens for Sonic Unleashed HUD.
