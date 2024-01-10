@@ -3,7 +3,7 @@
 - Added support for the Apotos Adventure Pack.
 - Added support for the Chun Nan Adventure Pack.
 - Added support for the Empire City Adventure Pack.
-- Added support for the Holsoka Adventure Pack.
+- Added support for the Holoska Adventure Pack.
 - Added support for the Mazuri Adventure Pack.
 - Added support for the Shamar Adventure Pack.
 - Added support for the Spagonia Adventure Pack.
