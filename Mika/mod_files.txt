@@ -1,0 +1,14 @@
+add mod.ini
+add csim.ini
+add gui.ini
+add mika.ini
+add disk/bb3/SonicClassic.ar.00
+add disk/bb3/SonicClassic.ar.01
+add disk/bb3/SonicClassic.ar.02
+add disk/bb3/SonicClassic.ar.03
+add disk/bb3/SonicClassic.arl
+add disk/bb3/SonicSp.ar.00
+add disk/bb3/SonicSp.ar.01
+add disk/bb3/SonicSp.ar.02
+add disk/bb3/SonicSp.ar.03
+add disk/bb3/SonicSp.arl
