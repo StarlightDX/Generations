@@ -1,4 +1,5 @@
 add mod.ini
+add mod.json
 add Unleashed Project/Stage/ActD_Petra.ar.00
 add Unleashed Project/Stage/ActD_Petra.arl
 add Unleashed Project/LoadingCustom.ar.00
