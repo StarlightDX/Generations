@@ -1,3 +1,6 @@
+## Update 1.2.1
+- Fixed mod.json not being downloaded.
+
 ## Update 1.2
 - Fixed a possible crash in Arid Sands Act 1 / 1-2.
 - Added support for the Apotos Adventure Pack.
