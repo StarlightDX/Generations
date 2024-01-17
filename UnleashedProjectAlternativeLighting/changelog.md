@@ -1,3 +1,10 @@
+## Update 1.3 (By MentorDex)
+- Improved water materials across all stages.
+- Added virtual mirrors to the water (also seen as reflections).
+- Increased volume of rain & wind in Rooftop Run.
+- Fixed the Jungle Joyride sea UV-Anims.
+- Made everything look just a little bit better.
+
 ## Update 1.2.1
 - Fixed mod.json not being downloaded.
 
