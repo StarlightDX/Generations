@@ -1,3 +1,6 @@
+## Update 1.4 Compatibility Fix
+- Fixed set data compatibility by mounting 1.3 changes to a setdata_sound.
+
 ## Update 1.3 (By MentorDex)
 - Improved water materials across all stages.
 - Added virtual mirrors to the water (also seen as reflections).

@@ -31,6 +31,8 @@ add Unleashed Project/#ActD_MykonosAct1.ar.00
 add Unleashed Project/#ActD_MykonosAct1.arl
 add Unleashed Project/#ActD_MykonosAct2.ar.00
 add Unleashed Project/#ActD_MykonosAct2.arl
+add Unleashed Project/#ActD_NY.ar.00
+add Unleashed Project/#ActD_NY.arl
 add Unleashed Project/#ActD_Petra.ar.00
 add Unleashed Project/#ActD_Petra.arl
 add Unleashed Project/#ActD_Snow.ar.00
