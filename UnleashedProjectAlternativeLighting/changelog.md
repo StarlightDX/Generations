@@ -1,3 +1,6 @@
+## Update 1.5
+- Acquire on GameBanana.
+
 ## Update 1.4 Compatibility Fix
 - Fixed set data compatibility by mounting 1.3 changes to a setdata_sound.
 
