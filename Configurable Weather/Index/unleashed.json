@@ -1,0 +1,119 @@
+{
+  "Groups": [
+    {
+      "Name": "Main",
+      "DisplayName": "Configuration",
+      "Elements": [
+        {
+          "Name": "ConfigSchemaFile",
+          "DisplayName": "Toggle active mode",
+          "Description": [
+            "Choose between Generations & Unleashed Project",
+            "Requires you to press OK after then save your mod loadout to be able to use the mode you switch to",
+            "",
+            "Currently active mode: Unleashed Project"
+          ],
+          "Type": "ConfigEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Index\\unleashed.json"
+        }
+      ]
+    },
+    {
+      "Name": "CPKs",
+      "DisplayName": "Windmill Isle",
+      "Elements": [
+        {
+          "Name": "pla200",
+          "DisplayName": "Act 1",
+          "Type": "pla200",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Index\\dummy.index"
+        },
+        {
+          "Name": "ghz200",
+          "DisplayName": "Act 2",
+          "Type": "ghz200",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Index\\dummy.index"
+        }
+      ]
+    }
+  ],
+  "Enums": {
+    "ConfigEnum": [
+      {
+        "DisplayName": "Unleashed Project",
+        "Value": "Index\\unleashed.json",
+        "Description": [
+          "Switch to configuring Unleashed Project.",
+          "Requires you to press OK after then save your mod loadout.",
+          "",
+          "Currently active mode: Unleashed Project"
+        ]
+      },
+      {
+        "DisplayName": "Generations",
+        "Value": "Index\\generations.json",
+        "Description": [
+          "Switch to configuring base Sonic Generations.",
+          "Requires you to press OK after then save your mod loadout.",
+          "",
+          "Currently active mode: Unleashed Project"
+        ]
+      }
+
+    ],
+    "pla200": [
+      {
+        "DisplayName": "None",
+        "Value": "Index\\dummy.index",
+        "Description": [
+          "Disable weather effects"
+        ]
+      }
+      //{
+      //  "DisplayName": "Rain",
+      //  "Value": "Index\\Rain\\ActD_MykonosAct1.index",
+      //  "Description": [
+      //    "Enable the rain weather effect"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "Snow",
+      //  "Value": "Index\\Snow\\ActD_MykonosAct1.index",
+      //  "Description": [
+      //    "Enable the snow weather effect"
+      //  ]
+      //}
+    ],
+    "ghz200": [
+      {
+        "DisplayName": "None",
+        "Value": "Index\\dummy.index",
+        "Description": [
+          "Disable weather effects"
+        ]
+      },
+      {
+        "DisplayName": "Rain",
+        "Value": "Index\\Rain\\ActD_MykonosAct2.index",
+        "Description": [
+          "Enable the rain weather effect"
+        ]
+      },
+      {
+        "DisplayName": "Snow",
+        "Value": "Index\\Snow\\ActD_MykonosAct2.index",
+        "Description": [
+          "Enable the snow weather effect"
+        ]
+      }
+    ]
+
+  },
+  "IniFile": "mod.ini"
+}

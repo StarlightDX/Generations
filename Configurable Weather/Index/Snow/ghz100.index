@@ -1,0 +1,9 @@
+[Main]
+CommandCount=1
+Command0=Add:Add
+
+[Add]
++ghz100.ar.00 = ../../Archive/Snow.ar.00
++ghz100.arl = ../../Archive/Snow.arl
++#ghz100.ar.00 = ../../Stage/Snow/#ghz100.ar.00
++#ghz100.arl = ../../Stage/Snow/#ghz100.arl

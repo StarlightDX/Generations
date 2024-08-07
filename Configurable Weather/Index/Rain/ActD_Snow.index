@@ -1,0 +1,9 @@
+[Main]
+CommandCount=1
+Command0=Add:Add
+
+[Add]
++ghz200.ar.00 = ../../Archive/Rain.ar.00
++ghz200.arl = ../../Archive/Rain.arl
++#ghz200.ar.00 = ../../Stage/Rain/#ActD_MykonosAct2.ar.00
++#ghz200.arl = ../../Stage/Rain/#ActD_MykonosAct2.arl

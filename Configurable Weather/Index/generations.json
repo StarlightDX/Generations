@@ -1,0 +1,119 @@
+{
+  "Groups": [
+    {
+      "Name": "Main",
+      "DisplayName": "Configuration",
+      "Elements": [
+        {
+          "Name": "ConfigSchemaFile",
+          "DisplayName": "Toggle active mode",
+          "Description": [
+            "Choose between Generations & Unleashed Project",
+            "Requires you to press OK after then save your mod loadout to be able to use the mode you switch to",
+            "",
+            "Currently active mode: Generations"
+          ],
+          "Type": "ConfigEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Index\\generations.json"
+        }
+      ]
+    },
+    {
+      "Name": "CPKs",
+      "DisplayName": "Green Hill Zone",
+      "Elements": [
+        {
+          "Name": "ghz100",
+          "DisplayName": "Act 1",
+          "Type": "ghz100",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Index\\dummy.index"
+        },
+        {
+          "Name": "ghz200",
+          "DisplayName": "Act 2",
+          "Type": "ghz200",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Index\\dummy.index"
+        }
+      ]
+    }
+  ],
+  "Enums": {
+    "ConfigEnum": [
+      {
+        "DisplayName": "Unleashed Project",
+        "Value": "Index\\unleashed.json",
+        "Description": [
+          "Switch to configuring Unleashed Project.",
+          "Requires you to press OK after then save your mod loadout.",
+          "",
+          "Currently active mode: Generations"
+        ]
+      },
+      {
+        "DisplayName": "Generations",
+        "Value": "Index\\generations.json",
+        "Description": [
+          "Switch to configuring base Sonic Generations.",
+          "Requires you to press OK after then save your mod loadout.",
+          "",
+          "Currently active mode: Generations"
+        ]
+      }
+
+    ],
+    "ghz100": [
+      {
+        "DisplayName": "None",
+        "Value": "Index\\dummy.index",
+        "Description": [
+          "Disable weather effects"
+        ]
+      }
+      //{
+      //  "DisplayName": "Rain",
+      //  "Value": "Index\\Rain\\ghz100.index",
+      //  "Description": [
+      //    "Enable the rain weather effect"
+      //  ]
+      //},
+      //{
+      //  "DisplayName": "Snow",
+      //  "Value": "Index\\Snow\\ghz100.index",
+      //  "Description": [
+      //    "Enable the snow weather effect"
+      //  ]
+      //}
+    ],
+    "ghz200": [
+      {
+        "DisplayName": "None",
+        "Value": "Index\\dummy.index",
+        "Description": [
+          "Disable weather effects"
+        ]
+      },
+      {
+        "DisplayName": "Rain",
+        "Value": "Index\\Rain\\ghz200.index",
+        "Description": [
+          "Enable the rain weather effect"
+        ]
+      },
+      {
+        "DisplayName": "Snow",
+        "Value": "Index\\Snow\\ghz200.index",
+        "Description": [
+          "Enable the snow weather effect"
+        ]
+      }
+    ]
+
+  },
+   "IniFile":"mod.ini"
+}
